@@ -1,0 +1,72 @@
+
+
+header {
+	
+    background: red;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+	
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: red;
+}
+	td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;}
+
+
+.table-area {
+    flex: 1;
+    padding: 20px;
+    background: pink;
+	text-align: center;
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: pink;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: red;
+
+}
+
+footer {
+    background: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 96%;
+}
